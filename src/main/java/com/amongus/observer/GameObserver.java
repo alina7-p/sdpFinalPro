@@ -1,4 +1,5 @@
 package com.amongus.observer;
 
-public class GameObserver {
+public interface GameObserver {
+    void onEmergencyMeeting(String reason);
 }

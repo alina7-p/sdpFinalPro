@@ -1,6 +1,8 @@
 package com.amongus.model;
 
-public abstract class Player {
+import com.amongus.observer.GameObserver;
+
+public abstract class Player implements GameObserver {
     private String nickname;
     private String color;
 
@@ -19,4 +21,9 @@ public abstract class Player {
 
     public abstract String getRole();
     public abstract void performRoleAction();
+
+    @Override
+    public void onEmergencyMeeting(String reason) {
+        System.out.println("Player " + nickname + " (" + color + ") received alert: " + reason + " -> Teleporting to Cafeteria table!");
+    }
 }
