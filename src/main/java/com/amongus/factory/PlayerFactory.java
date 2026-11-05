@@ -1,4 +1,7 @@
 package com.amongus.factory;
 
-public class PlayerFactory {
+import com.amongus.model.Player;
+
+public abstract class PlayerFactory {
+    public abstract Player createPlayer(String nickname, String color);
 }
