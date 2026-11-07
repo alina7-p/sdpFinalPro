@@ -20,7 +20,7 @@ The project was developed collaboratively using Git branches. Each team member w
 | **Asem Tugelbai** | [@asemtygelbaeva-byte](https://github.com/asemtygelbaeva-byte) | Strategy, Observer |
 | **Zhansaya Boranbaykyzy** | [@zhansayaboranbaykyzy07-code](https://github.com/asemtygelbaeva-byte) | Decorator, Command |
 
-**🏗️ Project Architecture (Patterns Used)**
+**Project Architecture (Patterns Used)**
 
 **Singleton** (com.amongus.singleton): Ensures only one GameSession exists to track the current phase of the game and active map rooms.
 
