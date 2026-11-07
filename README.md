@@ -39,14 +39,23 @@ The project was developed collaboratively using Git branches. Each team member w
 **Project Structure:**
 
 src/main/java/com/amongus/
-├── command/       # Command pattern implementations
-├── decorator/     # Decorator pattern implementations
-├── factory/       # Factory Method pattern implementations
-├── model/         # Base domain models (Player, Task)
-├── observer/      # Observer pattern implementations
-├── singleton/     # Singleton pattern implementations
-├── strategy/      # Strategy pattern implementations
-└── Main.java      # Application entry point demonstrating all patterns
+
+├── command/    
+
+├── decorator/ 
+
+├── factory/
+
+├── model/ 
+
+├── observer/  
+
+├── singleton/  
+
+├── strategy/ 
+
+└── Main.java
+
 
 ---
 
@@ -101,7 +110,7 @@ Total actions executed during meeting: 2
 
 ---
 
-🤝 Collaboration Workflow
+**Collaboration Workflow**
 
 This project was built strictly following a Git collaboration workflow:
 
