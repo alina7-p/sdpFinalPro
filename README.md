@@ -18,7 +18,7 @@ The project was developed collaboratively using Git branches. Each team member w
 | :--- | :--- | :--- |
 | **Alina Ibadulla** | [@alina7-p](https://github.com/alina7-p) | Singleton, Factory Method |
 | **Asem Tugelbai** | [@asemtygelbaeva-byte](https://github.com/asemtygelbaeva-byte) | Strategy, Observer |
-| **[Student 3 Name]** | [@zhansayaboranbaykyzy07-code](https://github.com/asemtygelbaeva-byte) | Decorator, Command |
+| **Zhansaya Boranbaykyzy** | [@zhansayaboranbaykyzy07-code](https://github.com/asemtygelbaeva-byte) | Decorator, Command |
 
 **🏗️ Project Architecture (Patterns Used)**
 
@@ -69,22 +69,34 @@ Run the application from your IDE (IntelliJ IDEA / Eclipse) by executing the mai
 === AMONG US DESIGN PATTERNS DEMO ===
 
 [GameSession] Game phase changed to: TASKS_PHASE
+
 Activating: Lights Sabotage
+
 [Sabotage] Lights are turned OFF! Crewmates vision is reduced.
 
+
 --- Player Effects ---
+
 Crewmate RedPlayer (Red) is completing a task!
+
 [Ghost Ability] RedPlayer can now pass through walls!
+
 
 --- Emergency Meeting & Commands ---
 
 [EMERGENCY ALERT] Body reported in Navigation!
+
 Player RedPlayer (Red) received alert: Body reported in Navigation! -> Teleporting to Cafeteria table!
+
 Player BlackPlayer (Black) received alert: Body reported in Navigation! -> Teleporting to Cafeteria table!
+
 [Command Action] Player BlackPlayer reported a dead body!
+
 [Command Action] Player BlackPlayer voted for RedPlayer!
 
+
 --- Voting/Action History ---
+
 Total actions executed during meeting: 2
 
 ---
@@ -109,7 +121,11 @@ During this project, our team successfully developed a modular simulation of the
 
 **Further Work:**
 The current console-based implementation laid a solid foundation that can be easily scaled. Future improvements include:
+
 GUI Implementation: Transitioning from console output to a fully windowed interface using JavaFX or Swing to visualize the map, player movements, and tasks.
+
 Network Multiplayer: Implementing client-server architecture using Java Sockets or WebSockets to allow users to play together over a network.
+
 Roles and Mechanics Expansion: Adding new roles (e.g., Engineer, Scientist) using existing factories and decorators, and complicating voting logic.
+
 Database Integration: Connecting PostgreSQL or SQLite to save player statistics (win rates, match history).
