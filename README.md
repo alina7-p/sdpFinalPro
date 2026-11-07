@@ -1,5 +1,7 @@
 **Final Project - Among Us**
+
 Student: Alina Ibadulla, Assem Tugelbay, Zhansaya Boranbaykyzy | SE-2540
+
 Teacher: Software Design Patterns | Mektapbayeva Aruzhan
 
 ---
